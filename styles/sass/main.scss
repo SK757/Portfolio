@@ -1,0 +1,102 @@
+html {
+	width: 100%;
+}
+
+body {
+	margin: 0;
+}
+
+header {
+	text-align: center;
+	font-family: 'Economica', sans-serif;
+}
+
+header h1 {
+	font-size: 5em;
+	margin: 0;
+}
+
+header h2 {
+	font-size: 1.8em;
+	padding: 0 3em;
+}
+
+
+/////// NAVIGATION ///////
+
+ul.sidenav {
+	font-family: Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #5a6c7a;
+    overflow: auto;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+}
+
+ul.sidenav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #aaa;
+    overflow: hidden;
+}
+ 
+ul.sidenav li a.active {
+    background-color: #3a4955;
+}
+
+ul.sidenav li a:hover {
+    background-color: #3a4955;
+}
+
+main {
+	font-family: 'Doppio One';
+    padding: 1px 16px;
+}
+
+// @media screen and (min-width: 730px) {
+//     ul.sidenav {
+//         width: 100%;
+//         height: auto;
+//         position: relative;
+//     }
+//     ul.sidenav li a {
+//         float: left;
+//         padding: 15px;
+//     }
+//     div.content {margin-left: 0;}
+// }
+
+@media screen and (min-width: 700px) {
+	header {
+		margin-left: 25%;
+	}
+
+	ul.sidenav {
+	    width: 25%;
+	    height: 100%;
+	}
+
+	ul li {
+		width: 100%;
+	}
+
+	ul.sidenav li a {
+	    padding: 30px 0px 30px 16px;
+	    text-decoration: none;
+	    float: none;
+	    border-right: none;
+    	border-bottom: 1px solid #aaa;
+	}
+
+	main {
+	    margin-left: 25%;
+	}
+
+}
