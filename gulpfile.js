@@ -15,7 +15,7 @@ gulp.task('html', function() {
 	return gulp.src('*.html')
     // .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(htmlmin({removeComments: true}))
-    .pipe(gulp.dest('html'))
+    .pipe(gulp.dest('html-min'))
 	.pipe(connect.reload());
 });
 
